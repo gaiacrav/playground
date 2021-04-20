@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Playground</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<body>
+  <div class="page">
+    <h1>My JS playground 🕹</h1>
+    <h4><em>Having a fun time playing with JS</em></h4>
+
+    <div class="buttons">
+      <p> Having fun with dynamic buttons!</p>
+      <button id="startButton">Click me to start!</button>
+      <button id="btn">I'm a button</button>
+      <i class="far fa-star" id="star"></i>
+    </div>
+
+    <div class="ball-space">
+      <p>Click me to see what I do!</p>
+      <i class="fas fa-volleyball-ball" id="ball"></i>
+      <i class="fas fa-volleyball-ball" id="newBall"></i>
+    </div>
+
+
+    <div class="field">
+      <p id="get-runner">Get your runner!</p>
+      <button id="start-runner">Wanna Start? click!</button>
+      <p id="instruction">Click on the <span id="key">"m"</span> key to make the runner running in the <em>Running race</em></p>
+      <img src="images/runner--start.jpeg" id="runner" alt="runner" width="100px" height="100px">
+      <img src="images/runner.jpeg" id="running" alt="running" width="100px" height="100px">
+    </div>
+
+
+
+    <h1 id="race">Running Race</h1>
+    <div id="content">
+    <hr>
+    <!-- You race HTML code here -->
+      <table class="racer-table">
+        <tr id="player1-race">
+          <td class="active"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td id="end"></td>
+        </tr>
+        <tr id="player2-race">
+          <td class="active"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td id="end"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
